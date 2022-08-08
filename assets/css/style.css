@@ -174,9 +174,136 @@
     opacity: 0;
 }
 
+/* Info */
+#info-container {
+    margin-bottom: 4em;
+    padding: 4em 1em;
+}
+
+#info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+
+    box-sizing: border-box;
+}
+
+#info-content .btn {
+    margin-bottom: 1em;
+}
+
+#info-content .title:before {
+    bottom: 3em;
+}
+
+
+#info-numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    margin: 1.5em 0;
+}
+
+#info-numbers h3 {
+    font-size: 3em;
+}
+
+#info-banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+/*Footer*/
+#footer {
+    padding: 3em 2em;
+
+}
+
+#footer-top {
+    margin-bottom: 2em;
+}
+
+#footer-top, #footer-top i {
+    color: white;
+}
+
+#social-icons {
+    text-align: right;
+}
+
+#social-icons i {
+    margin-right: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#social-icons i:hover {
+    color: #7a7a7a;
+}
+
+/*Footer Details*/
+#footer-details {
+    margin-bottom: 3em;
+}
+
+#news-container, #contact-container, #links-container {
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 0;
+    border: 0;
+}
+
+#footer-details h4 {
+    color: white;
+    margin-bottom: 1.5em;
+}
+
+#news-container input {
+    border-radius: 0;
+    border: none;
+}
+
+#newsletter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#newsletter input {
+    height: 38px;
+}
+
+#links-container li {
+    margin-bottom: 0.5em;
+
+}
+
+#links-container a {
+    text-decoration: none;
+}
+
+#links-container a:hover {
+    color: white;
+}
+
+/*Footer Bottom*/
+#footer-bottom {
+    border: 1px solid #7a7a7a;
+    padding-top: 2em;
+}
+
+#footer-bottom i {
+    color: red;
+    margin-left: .3em;
+}
 
 /* Responsividade */
-@media (min-width: 768px) {
+@media (min-width: 712px) {
+
     /* Sliders */
     #slider .carousel-caption {
         bottom: 15em;
@@ -208,6 +335,26 @@
 
     .title:before {
         bottom: 1.5em;
+    }
+
+    /* Info */
+    #info-content {
+        padding: 3.5em;
+    }
+
+    /* Footer */
+    #news-container {
+        padding-right: 2em;
+    }
+
+    #links-container {
+        padding-left: 2em;
+    }
+
+    #contact-container {
+        padding: 0 2em;
+        border-left: 1px solid #7a7a7a;
+        border-right: 1px solid #7a7a7a;
     }
 
 
