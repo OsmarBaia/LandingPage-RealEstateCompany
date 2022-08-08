@@ -9,7 +9,7 @@ Front-end estático para apresentação de portfólio, com temática de arquitet
 
 # 💻 Landscape
 
-<img src=".assets/img/imove_landscape.gif" alt="landscape view" />
+<img src="./assets/img/imove_landscape.gif" alt="landscape view" />
 
 # 📱 Portrait
 
