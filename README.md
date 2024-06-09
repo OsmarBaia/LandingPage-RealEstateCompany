@@ -7,10 +7,12 @@ Front-end estático para apresentação de portfólio, com temática de arquitet
 - HTML/CSS
 - BOOTSTRAP
 
-# 💻 Landscape
+# 💻 Preview
 
 <img src="./assets/img/imove_landscape.gif" alt="landscape view" />
-
-# 📱 Portrait
-
 <img src="./assets/img/imove_portrait.gif" alt="portrait view"/>
+
+# Design
+
+![image](https://github.com/OsmarBaia/LandingPage-RealEstateCompany/assets/88497805/8af2aa4a-6a6a-44fc-ab67-2cc73f5ab395)
+
